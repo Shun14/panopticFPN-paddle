@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=0 python train.py --config configs/pfpn/pfpn_resnet101_os8_cityscapes_512x1024_80k.yml --num_workers 4 --use_vdl --do_eval --save_interval 500 --save_dir pfpnnet_cityscapes_b8 --batch_size 4
+CUDA_VISIBLE_DEVICES=0 python train.py --config configs/pfpn/pfpn_resnet101_os8_cityscapes_512x1024_40k.yml --num_workers 4 --use_vdl --do_eval --save_interval 500 --save_dir pfpnnet_cityscapes_b8 --batch_size 4
