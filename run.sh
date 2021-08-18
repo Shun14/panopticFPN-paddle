@@ -1,1 +1,1 @@
-export CUDA_VISIBLE_DEVICES=0,1,2,3 python3 -m paddle.distributed.launch train.py --config configs/pfpn/pfpn_resnet101_os8_cityscapes_512x1024_40k.yml --num_workers 16 --use_vdl --do_eval --save_interval 1000 --save_dir pfpnnet_cityscapes_b8
+export CUDA_VISIBLE_DEVICES=0,1,2,3 python3 -m paddle.distributed.launch train.py --config configs/pfpn/pfpn_resnet101_os8_cityscapes_512x1024_40k.yml --num_workers 16 --use_vdl --do_eval --save_interval 1000 --save_dir pfpnnet_cityscapes_b8 --learning_rate 0.01
